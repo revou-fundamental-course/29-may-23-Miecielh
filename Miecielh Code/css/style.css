@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav-item {
+    padding: 5px 1em;
+    width: 85px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.nav-bar:last-child {
+    border-right: none;
+}
+
+.Logo {
+    height: 2em;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.Headquarters-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.Headquarters-image {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 1px solid black;
+}
